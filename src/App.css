@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+body {
+  color: rgba(0, 0, 0, 0.54);
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fa-star {
+  color: orange;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
+.fa-react {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-circle-fishy {
+  margin-top: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #3298dc;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  background-color: #fff;
+  /* background-image: linear-gradient(45deg, #3298dc 0%, #91fdb7 100%); */
+  transition: 0.4s;
+  border: solid #3298dc;
+  margin: 10px;
+}
+
+.btn-circle-fishy:hover {
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.button {
+  display: inline-block;
+}
+
+.parent {
+  height: 200px;
+  width: 100%;
+}
+
+.header {
+  background-image: url(./components/images/blue.jpeg);
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
 }
