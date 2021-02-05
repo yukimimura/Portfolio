@@ -16,6 +16,8 @@ import material from './images/material.png';
 import sqlite from './images/sqlite.png';
 import mysql from './images/mysql.png';
 import git from './images/git.png';
+import aws from './images/aws.png';
+import docker from './images/docker.png';
 
 import Fade from 'react-reveal/Fade';
 
@@ -141,6 +143,10 @@ export default function Skill() {
               <img src={sqlite} className={classes.image} alt=""/><Fade left cascade><span className={classes.element}>SQLite</span></Fade>{sample(3, 2)}<br/>
               <div className={classes.space}/>
               <img src={git} className={classes.image} alt=""/><Fade left cascade><span className={classes.element}>Git</span></Fade>{sample(4, 1)}
+              <div className={classes.space}/>
+              <img src={aws} className={classes.image} alt=""/><Fade left cascade><span className={classes.element}>AWS</span></Fade>{sample(3, 2)}
+              <div className={classes.space}/>
+              <img src={docker} className={classes.image} alt=""/><Fade left cascade><span className={classes.element}>Docker</span></Fade>{sample(2, 3)}
             </Typography>
           </Grid>
         </Grid>

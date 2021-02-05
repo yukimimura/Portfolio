@@ -11,6 +11,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Link from '@material-ui/core/Link';
 import Typography from '@material-ui/core/Typography';
 
+import fod from './images/fodmaplab.jpg'
 import covid from './images/covid.png';
 import book from './images/findbook1.png';
 import hello from './images/hello.png';
@@ -53,6 +54,19 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const tiers = [
+  {
+    title: '低FODMAP専門レシピサイト',
+    description: '過敏性腸症候群の人向けのレシピサイトです。',
+    points: [
+      'レシピ投稿機能',
+      'AWSとDockerの利用',
+      'ユーザー機能',
+    ],
+    skill:  'Rails6 / JS / AWS / MySQL /Docker',
+    url: 'http://35.72.117.112/',
+    git: 'https://github.com/yukimimura/fodmaplab',
+    image: fod,
+  },
   {
     title: 'コロナ感染グラフ',
     description: '世界中のコロナ感染状況をグラフで確認できるサイトです。',
