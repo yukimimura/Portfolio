@@ -92,7 +92,7 @@ const Profile = () => {
               <span>2019 ~</span><br/>
               <span>新卒で広島銀行に入行し、金融商品の営業業務を経験。</span><br/>
               <span>その後株式会社KDDIエボルバに転職し、カスタマーサポートを担当。</span><br/>
-              <span>現在はWEBエンジニアを目指し転職活動中。</span>
+              <span>現在はエンジニアを目指し転職活動中。得意な言語はRuby、Javascript。</span>
               </Fade>
             </Typography>
             <Typography className={classes.typography}>
